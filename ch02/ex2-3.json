@@ -1,0 +1,25 @@
+// 예제 2.3 하나의 결과 문서에 두 필드를 돌려주는 검색 응답
+
+{
+  "took" : 2,
+  "timed_out": false
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 2,
+    "max_score" : 0.9066504,
+    "hits" : [ {
+      "_index" : "get-together",
+      "_type" : "group",
+      "_id" : "3",
+      "_source" : 0.9066504,
+      "fields" : {
+	"location" : [ "San Francisco, California, USA" ],
+	"name" : [ "Elasticsearch San Francisco"]
+      }
+    }]
+  }
+}
