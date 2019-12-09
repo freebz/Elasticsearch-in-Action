@@ -1,0 +1,14 @@
+// 예제 6.1 필드 매핑에서 유사도 파라미터 수정
+
+{
+  "mappings": {
+    "get-together": {
+      "properties": {
+	"title": {
+	  "type": "string",
+	  "similarity": "BM25"
+	}
+      }
+    }
+  }
+}
