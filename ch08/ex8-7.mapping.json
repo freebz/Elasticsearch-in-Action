@@ -1,0 +1,14 @@
+// 예제 8.7 샘플 코드에서의 _parent 매핑
+
+# from mapping.json
+"event" : {
+  "_source" : [
+    "enabled" : true
+  },
+  "_all" : {
+    "enabled" : false
+  },
+  "_parent" : {
+    "type" : "group"
+  },
+  "properties" : {
