@@ -1,0 +1,5 @@
+{"index" : "get-together", "type": "group"}
+{"query" : {"match" : {"name": "elasticsearch"}}}
+{"index" : "get-together", "type": "event"}
+{"query" : {"match" : {"title": "elasticsearch"}}}
+
