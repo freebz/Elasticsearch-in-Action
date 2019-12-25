@@ -1,0 +1,18 @@
+# 예제 B.5 설치한 헤드 플러그인과 일래스틱서치를 시작하는 출력 예제
+
+[INFO ][node                ] [Black Widow] version[1.5.1], pid[33030],
+  build[5e38401/2015-04-09T13:41:35Z]
+[INFO ][node                ] [Black Widow] initializing ...
+[INFO ][plugins             ] [Black Widow] loaded [], sites [head]
+[INFO ][node                ] [Black Widow] initialized
+[INFO ][node                ] [Black Widow] starting ...
+[INFO ][transport           ] [Black Widow] bound_address {inet[/
+  0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.4:9300]}
+[INFO ][discovery           ] [Black Widow] elasticsearch/evzmesg5QlmRjffe-
+  HnGIw
+[INFO ][discovery           ] [Black Widow] new_master [Black
+  Widow][evzmesg5QlmRjffe-HnGIw][Xanadu-2.domain][inet[/
+   192.168.0.4:9300]], reason: zen-disco-join (elected_as_master)
+[INFO ][http                ] [Black Widow] bound_address{inet[/
+  0:0:0:0:0:0:0:0:9200}}, publish_address {inet[/192.168.0.4:9200]}
+[INFO ][node                ] [Black Widow] started
