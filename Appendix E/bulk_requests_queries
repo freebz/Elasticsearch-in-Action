@@ -1,0 +1,7 @@
+{"index" : {"_index" : "blog", "_type" : ".percolator", "_id": "1"}}
+{"query": {"match": {"title": "elasticsearch"}}}
+{"index" : {"_index" : "blog", "_type" : ".percolator", "_id": "2"}}
+{"query": {"match" {"title", "release"}}}
+{"index": {"_index" : "blog", "_type" : ".percolator", "_id": "3"}}
+{"query": {"match" {"title", "book"}}}
+
